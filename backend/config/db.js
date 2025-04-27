@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const MONGO_URI = "mongodb+srv://pandasoumya605:soumya@cluster0.fp6zea1.mongodb.net/AndroidDB?retryWrites=true&w=majority&appName=Cluster0";
+const MONGO_URI = 'mongodb+srv://pandasoumya605:soumya@cluster0.fp6zea1.mongodb.net/AndroidDB?retryWrites=true&w=majority&appName=Cluster0';
 
 const connectDB = async () => {
   try {
